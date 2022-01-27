@@ -8,7 +8,7 @@ let numeri = [];
 
 let testo = document.getElementById("cubi");
 
-for(let i = 0; i < numeroCubi; i++){
+for(let i = 1; i < numeroCubi + 1; i++){
 
     //metto nel vettore il cubo di i, fino al momento in cui i non raggiunge il numero scelto dall'utente
     numeri.push(i * i * i);
